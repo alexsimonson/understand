@@ -5,15 +5,19 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "pg": "^7.12.1",
     "react": "^16.9.0",
+    "reactstrap": "^8.0.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
   "devDependencies": {},
   "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
     "server": "nodemon server"
   },
   "author": "Alex Simonson",
