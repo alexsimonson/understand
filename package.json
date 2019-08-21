@@ -1,0 +1,21 @@
+{
+  "name": "understand",
+  "version": "1.0.0",
+  "description": "Trying to understand",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1",
+    "react": "^16.9.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "author": "Alex Simonson",
+  "license": "ISC"
+}
