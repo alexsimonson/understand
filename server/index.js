@@ -14,6 +14,9 @@ app.use(bodyParser.json());
 
 app.use('/api/cities', require('./api/cities'));
 app.use('/api/weather', require('./api/weather'));
+app.use('/api/hashtags', require('./api/hashtags'));
+// app.use('/api/code', require('./api/code'));
+app.use('/api/instagram', require('./api/instagram'));
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`);
