@@ -36,8 +36,6 @@ class Database {
         });
     }
 
-    //test
-
     end() {
         this._pool.end();
     }

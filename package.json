@@ -8,6 +8,7 @@
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
+    "passport-instagram": "^1.0.0",
     "pg": "^7.12.1",
     "react": "^16.9.0",
     "reactstrap": "^8.0.1",
